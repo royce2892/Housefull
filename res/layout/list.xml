@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/backl"
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"
+            android:background="@drawable/back" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="80"
+            android:background="@drawable/mtit" />
+    </LinearLayout>
+ 
+    <Button
+        android:id="@+id/mal"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:text="Malayalam"
+        android:textColor="#555"
+        android:background="#fffefe"
+        android:textSize="35dp" >
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#bbb" >
+    </Button>
+
+    <Button
+        android:id="@+id/eng"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:text="English"
+                android:textColor="#555"
+        android:background="#fffefe"
+        android:textSize="35dp" >
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#bbb" >
+    </Button>
+
+    <Button
+        android:id="@+id/hin"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:text="Hindi"
+                android:textColor="#555"
+        android:background="#fffefe"
+        android:textSize="35dp" >
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#bbb" >
+    </Button>
+
+    <Button
+        android:id="@+id/tam"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:text="Tamil"
+        android:textColor="#555"
+        android:background="#fffefe"
+        android:textSize="35dp" >
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#bbb" >
+    </Button>
+
+</LinearLayout>

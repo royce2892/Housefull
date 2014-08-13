@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/backfus"
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"
+            android:background="@drawable/back" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="80"
+            android:background="@drawable/t_au" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:paddingLeft="40dp"
+        android:src="@drawable/hf" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:layout_weight="50"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:text="Version :"
+            android:textColor="@color/BlueViolet"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="50"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:text="1.0"
+            android:textColor="@color/Black"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="45"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:text="Design :"
+            android:textColor="@color/BlueViolet"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="55dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="55"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="Nithin DT"
+            android:textColor="@color/Black"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="35"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:text="Code   :"
+            android:textColor="@color/BlueViolet"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="65"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:text="George,Royce"
+            android:textColor="@color/Black"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="35"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:text="Title   :"
+            android:textColor="@color/BlueViolet"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="65"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:text="John KJ"
+            android:textColor="@color/Black"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+</LinearLayout>

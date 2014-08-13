@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="12.5dp"
+        android:layout_weight="12.5"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/backmore"
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"
+            android:background="@drawable/back" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="80"
+            android:background="@drawable/mortit" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/fbp"
+        android:layout_width="fill_parent"
+        android:layout_height="12.5dp"
+        android:layout_weight="12.5"
+        android:background="@drawable/i_fb"
+        android:textColor="@color/Black" >
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#bbb" >
+    </Button>
+
+    <Button
+        android:id="@+id/tp"
+        android:layout_width="fill_parent"
+        android:layout_height="12.5dp"
+        android:layout_weight="12.5"
+        android:background="@drawable/i_tw"
+        android:textColor="@color/Black" >
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#bbb" >
+    </Button>
+
+    <Button
+        android:id="@+id/fb"
+        android:layout_width="fill_parent"
+        android:layout_height="12.5dp"
+        android:layout_weight="12.5"
+        android:background="@drawable/i_f"
+        android:textColor="@color/Black" >
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#bbb" >
+    </Button>
+
+    <Button
+        android:id="@+id/err"
+        android:layout_width="fill_parent"
+        android:layout_height="12.5dp"
+        android:layout_weight="12.5"
+        android:background="@drawable/i_err"
+        android:textColor="@color/Black" >
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#bbb" >
+    </Button>
+
+    <Button
+        android:id="@+id/sug"
+        android:layout_width="fill_parent"
+        android:layout_height="12.5dp"
+        android:layout_weight="12.5"
+        android:background="@drawable/i_rec"
+        android:textColor="@color/Black" >
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#bbb" >
+    </Button>
+
+    <Button
+        android:id="@+id/rate"
+        android:layout_width="fill_parent"
+        android:layout_height="12.5dp"
+        android:layout_weight="12.5"
+        android:background="@drawable/i_r"
+        android:textColor="@color/Black" >
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#bbb" >
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#bbb" >
+    </Button>
+
+    <Button
+        android:id="@+id/us"
+        android:layout_width="fill_parent"
+        android:layout_height="12.5dp"
+        android:layout_weight="12.5"
+        android:background="@drawable/i_au"
+        android:textColor="@color/Black" >
+    </Button>
+
+</LinearLayout>

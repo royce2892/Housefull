@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MoviekeralaActivity!</string>
+    <string name="app_name">Housefull</string>
+    <string-array name="movie_names"></string-array>
+    <string name="distpr">Select a district</string>
+ 
+    <string-array name="dist">
+        	<item>Trivandrum</item>
+        	<item>Kochi</item>
+			<item>Calicut</item>
+			<item>Trichur</item>
+			<item>Kollam</item>
+			<item>Kottayam</item>
+			<item>Allepey</item>
+			<item>Wayanad</item>
+			<item>Pathanamthitta</item>
+			<item>Malapuram</item>
+			<item>Kasargod</item>
+			<item>Kannur</item>
+			<item>Palakkad</item>
+			<item>Idukki</item>
+			
+        
+    </string-array>
+ 
+</resources>

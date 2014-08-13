@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/Black"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <ImageView
+        android:id="@+id/logoapp"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_weight="40"
+        android:paddingLeft="40dp"
+        android:src="@drawable/hf"
+                android:background="#fffefe"
+
+         />
+ <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#bbb" >
+    </Button>
+    <Button
+        android:id="@+id/mov"
+        android:layout_width="fill_parent"
+        android:layout_height="14dp"
+        android:layout_weight="15"
+        android:background="@drawable/mov" >
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#bbb" >
+    </Button>
+
+    <Button
+        android:id="@+id/sht"
+        android:layout_width="fill_parent"
+        android:layout_height="14dp"
+        android:layout_weight="15"
+        android:background="@drawable/shtbak" >
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#bbb" >
+    </Button>
+
+    <Button
+        android:id="@+id/fav"
+        android:layout_width="fill_parent"
+        android:layout_height="14dp"
+        android:layout_weight="15"
+        android:background="@drawable/favbak" >
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#bbb" >
+    </Button>
+
+    <Button
+        android:id="@+id/more"
+        android:layout_width="fill_parent"
+        android:layout_height="14dp"
+        android:layout_weight="15"
+        android:background="@drawable/morbak" >
+    </Button>
+
+</LinearLayout>

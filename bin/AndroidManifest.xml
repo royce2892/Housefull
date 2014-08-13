@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.movieroyce"
+      android:versionCode="4"
+      android:versionName="4"
+      >
+     <uses-permission android:name="android.permission.INTERNET" />
+     <uses-permission android:name="android.permission.READ_CONTACTS"/>
+     
+    <uses-sdk android:minSdkVersion="8" /> 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="false">
+        <activity android:name=".movielist"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MOVIELIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".sht"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.SHT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".list"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.LIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".index"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".detail"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.DETAIL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".cast"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.CAST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".preview"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.PREVIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".review"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.REVIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".more"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MORE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".feed"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.FEED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".sug"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.SUG" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".fav"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.FAV" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".group"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.GROUP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".face"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.FACE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".app"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.APP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity><activity android:name=".us"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.US" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+
+    </application>
+</manifest>

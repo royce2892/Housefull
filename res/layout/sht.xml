@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lay"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/Black"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/backsht"
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"
+            android:background="@drawable/back" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="80"
+            android:background="@drawable/shttit" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="Select District"
+        android:textColor="@color/White"
+        android:textSize="30dp"
+        android:gravity="center" />
+
+    <Spinner
+        android:id="@+id/dist"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:dropDownSelector="@color/Red"
+        android:entries="@array/dist"
+        android:gravity="right"
+        android:prompt="@string/distpr" />
+	
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="Enter Movie"
+        android:textColor="@color/White"
+        android:textSize="30dp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <!--
+        <Spinner
+        android:id="@+id/spinnermov"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:entries="@array/movie_names"
+        />
+    -->
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Results"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/White"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Results"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/White"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/linearlay"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:scrollbars="vertical" >
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>
